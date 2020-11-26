@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button hover</title>
+  </head>
+  <body>
+    <a href="#">SUBSCRIBE</a>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: #eed6f8;
+      }
+
+      a {
+        font-family: "Poppins", sans-serif;
+        margin: 100px 100px;
+        padding: 30px 40px;
+        color: white;
+        letter-spacing: 3px;
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        border-radius: 30px;
+        background-image: linear-gradient(
+          to right,
+          #ff02c0 0%,
+          #aa008b 51%,
+          #fffb00 100%
+        );
+        background-size: 200% auto;
+        box-shadow: 0 0 25px rgb(201, 117, 192);
+        transition: 1s;
+      }
+
+      a:hover {
+        background-position: right center;
+      }
+    </style>
+  </body>
+</html>
